@@ -20,9 +20,9 @@ CREATE TABLE GPUs (
     model VARCHAR(50),
     price FLOAT,
     in_stock BOOLEAN,
-	date_added TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-	addedby VARCHAR(50),
-  	last_updatedBy VARCHAR(50)
+    date_added TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    addedby VARCHAR(50),
+    last_updatedBy VARCHAR(50)
 );
 
 CREATE TABLE SALES (
@@ -30,5 +30,5 @@ CREATE TABLE SALES (
     gpuID INT,
     quantity INT,
     total_price FLOAT,
-	date_added TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+    date_added TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
